@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llama2-c"
+version = "0.1.0"
+description = "Karpathy's Project"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "llama2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.23.5"
+pytest = "7.4.0"
+requests = "2.31.0"
+sentencepiece = "0.1.99"
+tiktoken = "0.3.3"
+torch = "2.0.1"
+tqdm = "4.64.1"
+wandb = "0.15.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
